@@ -1,0 +1,30 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <h3 style="color:#9E9E9E;"></h3>
+  <p>Dear {{.FirstName}}</p>
+  
+<p>Your Active Directory password is locked.</p>
+<p>You are strongly advised to unlock it as soon as possible.</p>
+<p>Please follow the below instructions:</p>
+<p>
+  <ol>
+    <li>Make sure you are located to Omilia premises OR connected to the Omilia VPN (AnyConnect Client),</li>
+       <li>Go to intranet.omilia.com, <a href="{{.URL}}">Unlock your password</a></li>
+    <li>Or from your MacBook, open System Preferences,</li>
+    <li>Select User & Groups,</li>
+    <li>Select from Current User your name and click the Change Password... fill the requested information and click Change Password.</li>
+ 
+  </ol>
+</p>
+
+<p>If you are facing any issues during the process, please contact Panagiotis Vrynios via Slack.
+Please keep in mind that not changing your password (allowing it to expire) most probably will lead to inaccessible MacBook login/Jira/Wiki/Gitlab or any other resource that is integrated with Active Directory</p>
+
+<p>This is an automated message. Please, do not reply to this message.</p>
+
+<p>Thanks,<br>IT Support Team</p>
+</body>
+</html>
