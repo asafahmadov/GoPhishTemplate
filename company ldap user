@@ -6,17 +6,14 @@
   <h3 style="color:#9E9E9E;"></h3>
   <p>Dear {{.FirstName}}</p>
   
-<p>Your Active Directory password is locked.</p>
+<p>Your Active Directory account has locked.</p>
 <p>You are strongly advised to unlock it as soon as possible.</p>
 <p>Please follow the below instructions:</p>
 <p>
   <ol>
     <li>Make sure you are located to Omilia premises OR connected to the Omilia VPN (AnyConnect Client),</li>
-       <li>Go to intranet.omilia.com, <a href="{{.URL}}">Unlock your password</a></li>
-    <li>Or from your MacBook, open System Preferences,</li>
-    <li>Select User & Groups,</li>
-    <li>Select from Current User your name and click the Change Password... fill the requested information and click Change Password.</li>
- 
+       <li>Go to Intranet Portal, <a href="{{.URL}}">Unlock your account</a></li>
+
   </ol>
 </p>
 
