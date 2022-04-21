@@ -1,0 +1,16 @@
+You'll need to paste the actual source code from the landing page, please.
+
+Here's a sample landing page that captures the password:
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action="" method="post" name="form"><label>Username:</label> <input name="username" type="text" /><br />
+<label>Password:</label> <input name="password" type="password" /><br />
+<input id="login" name="login" type="submit" value="Login" />&nbsp;</form>
+</body>
+</html>
+
+Also, make sure the 'Capture Passwords' option is selected.
